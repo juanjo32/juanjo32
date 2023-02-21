@@ -58,3 +58,131 @@ header{
 .navegacion a.active{
     color: var(--ppal); 
 }
+#menu-icon{
+    font-size: 35px;
+    color: var(--texto);
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}
+section{
+    padding: 160px 15% 120px;
+
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../fotos/B5369EAB-844B-48F7-9A43-30752EA2CD65.JPG);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+   
+}
+.slide{
+    margin-bottom: 20px;
+
+}
+.Hey{
+    display: inline-block;
+    margin-right: 15px;
+    height: 32px;
+    padding: 0 15px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: var(--ppal);
+    color: var(--texto);
+}
+.other{
+    display: inline-block;
+    color: var(--ppal);
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-text h1{
+    font-size: var(--ltgr);
+    font-weight: 700;
+    color: var(--texto);
+    line-height: 1.1;
+    margin: 0 0 8px;
+}
+.home-text h3{
+    color: var(--texto);
+    margin: 0 0 35px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+
+}
+.home-text h3 span{
+    color: var(--ppal);
+}
+.home-text p{
+    color: var(--sec);
+    font-size: var(--ltp);
+    line-height: 1.8;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--ppal);
+    border-radius: 5px;
+    color: var(--texto);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+}
+.btn:hover{
+    transform: scale(0.9);
+
+}
+.btn2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--texto);
+    margin-left: 35px;
+}
+.btn2 span i{
+    height: 55px;
+    width: 55px;
+    background: var(--ppal);
+    color: var(--texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: all .45s ease;
+}
+btn2 span i:hover{
+    transform: scale(1.1) translateY(10px);
+}
+header.sticky{
+    background: var(--fondo);
+    border-bottom: 1px solid #ffffff1a;
+    padding: 12px 15%;
+}
+.about{
+    display: grid;
+    grid-auto-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
